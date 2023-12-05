@@ -8,7 +8,8 @@ export const Footer: GlobalConfig = {
     read: () => true,
   },
   fields: [
-    {
+    { name: 'copyright', label: 'copyright', type: 'text', required: true },
+    { 
       name: 'navItems',
       type: 'array',
       maxRows: 6,
