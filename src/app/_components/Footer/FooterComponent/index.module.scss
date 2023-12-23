@@ -36,14 +36,6 @@
   margin-bottom: 16px;
 }
 
-
-:global([data-theme='dark']) {
-  .footer {
-    background-color: var(--theme-elevation-50);
-    color: var(--theme-elevation-1000);
-  }
-}
-
 .wrap {
   display: flex;
   justify-content: space-between;

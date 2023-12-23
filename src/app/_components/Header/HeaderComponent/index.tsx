@@ -6,7 +6,6 @@ import { Gutter } from '../../Gutter'
 
 import classes from './index.module.scss'
 import Image from 'next/image'
-import MobileNav from '../MobileNav'
 import { HeaderNav } from '../Nav'
 import { noHeaderFooterUrls } from '../../../constants'
 import { usePathname } from 'next/navigation'

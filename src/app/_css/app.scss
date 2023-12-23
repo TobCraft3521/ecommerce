@@ -29,7 +29,6 @@
 
 html {
   @extend %body;
-  background: var(--theme-bg);
   -webkit-font-smoothing: antialiased;
   opacity: 0;
 
@@ -111,6 +110,7 @@ ol {
 
 a {
   color: var(--color-dark-500);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
